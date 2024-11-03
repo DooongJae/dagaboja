@@ -22,7 +22,7 @@ public class SseController {
 	public String index() {
 		return "index";
 	}
-
+ 
 	@Autowired
     public SseController(SseEmitterService sseEmitterService) {
         this.sseEmitterService = sseEmitterService;
